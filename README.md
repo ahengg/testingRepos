@@ -37,3 +37,24 @@ To run this notebook, you need to have Python and Jupyter Notebook installed. Yo
 
 ```bash
 pip install matplotlib pandas
+```
+---
+## Businees Question
+
+```Python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Example data loading and processing (replace with actual data processing)
+data = pd.read_csv('data.csv')
+male_customers = data[data['gender'] == 'Male']
+country_counts = male_customers['country'].value_counts()
+
+# Plotting
+plt.figure(figsize=(10, 6))
+country_counts.plot(kind='bar')
+plt.title('Number of Male Customers by Country')
+plt.xlabel('Country')
+plt.ylabel('Number of Male Customers')
+plt.show()
+```
