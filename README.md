@@ -39,8 +39,8 @@ To run this notebook, you need to have Python and Jupyter Notebook installed. Yo
 pip install matplotlib pandas
 ```
 ---
-## Businees Question
-
+## Business Question
+### 1-where-are-the-most-male-customers-located-display-with-a-bar-chart-per-country
 ```Python
 import pandas as pd
 import matplotlib.pyplot as plt
