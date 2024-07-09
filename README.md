@@ -1,4 +1,5 @@
 # The Look ECommerce Data Analysis
+![Project Logo](https://github.com/ahengg/testingRepos/blob/main/bantuNgertiRaw.jpg)
 
 This Jupyter notebook demonstrates data analysis and visualization for The Look ECommerce dataset. It includes analysis of customer demographics, traffic sources, and order statuses using Python and `matplotlib`.
 
